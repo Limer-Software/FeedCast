@@ -1,0 +1,29 @@
+{
+  "name": "feedcast",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.js",
+    "start:dev": "bun run src/index.ts -w",
+    "w": "bun start:dev"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/cors": "^2.8.13",
+    "@types/ejs": "^3.1.2",
+    "@types/helmet": "^4.0.0",
+    "@types/pg": "^8.10.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "pg": "^8.11.1"
+  }
+}
